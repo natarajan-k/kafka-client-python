@@ -11,7 +11,7 @@ A simple Kafka Client in Python.
 
 ## Guide to Getting Started
 1. Create a folder in your local laptop and change directory to that folder. 
-2. Clone the repositary.   
+2. Clone the repository.   
 git clone https://github.com/natarajan-k/kafka-client-python.git
 
 3. Install some libraries.
