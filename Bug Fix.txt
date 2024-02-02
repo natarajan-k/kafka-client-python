@@ -1,0 +1,9 @@
+Bug Fix.
+There is a known bug in python 3.12.1 (in MAC) related to module kafka.vendor.six.moves
+If you see such error, add the following to the code before importing KafkaProducer
+
+import six
+if sys.version_info >= (3, 12, 0):
+   sys.modules['kafka.vendor.six.moves'] = six.moves
+
+
